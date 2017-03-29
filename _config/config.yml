@@ -1,0 +1,5 @@
+---
+Name: twitterconfig
+---
+TwitterService:
+  oauth_callback: 'admin/twitter/TwitterAccount/OAuth'

@@ -1,0 +1,10 @@
+en:
+  Twitter:
+    FieldLabelTitle: 'Username'
+    FieldDescriptionTitle: 'The Twitter account you want to pull media from.'
+    ButtonLabelAuthoriseAccount: 'Authorise account'
+    ButtonLabelAddAccount: 'Add account'
+    MessageOAuthErrorResponse: 'Unable to authorise account. Please try again.'
+    MessageOAuthSuccess: 'Successfully authorised your account.'
+    MessageOAuthErrorUserConflict: 'Unable to authorise account. Make sure you are logged out of Twitter and your username is spelled correctly.'
+    AccountAuthorisedMessage: 'This account has been authorised.'
