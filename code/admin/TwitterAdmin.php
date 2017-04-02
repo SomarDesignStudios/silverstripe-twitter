@@ -19,6 +19,11 @@ class TwitterAdmin extends ModelAdmin
     /**
      * @var string
      */
+    private static $menu_icon = 'silverstripe-twitter/images/twitter-logo.png';
+
+    /**
+     * @var string
+     */
     private static $menu_title = 'Twitter';
 
     /**
