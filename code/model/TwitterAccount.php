@@ -7,13 +7,6 @@ class TwitterAccount extends DataObject
     ];
 
     /**
-     * @config
-     *
-     * @var string
-     */
-    private static $redirect_path;
-
-    /**
      * @var TwitterService
      */
     public $twitterService;
@@ -91,10 +84,10 @@ class TwitterAccount extends DataObject
 
         $actions->push(
             LiteralField::create(
-              'OAuthLink',
-              '<a class="ss-ui-button" href="' . $this->twitterService->getAuthoriseUrl($token) . '">' .
-                _t('Twitter.ButtonLabelAuthoriseAccount', 'Authorise account') .
-              '</a>'
+                'OAuthLink',
+                '<a class="ss-ui-button" href="' . $this->twitterService->getAuthoriseUrl($token) . '">' .
+                    _t('Twitter.ButtonLabelAuthoriseAccount', 'Authorise account') .
+                '</a>'
             )
         );
 
