@@ -1,8 +1,6 @@
 # SilverStripe Twitter
 
-Twitter API integration for SilverStripe.
-
-Warning: This module is under active development and there is no stable release.
+Provides Twitter API integration using [abraham/twitteroauth](https://github.com/abraham/twitteroauth).
 
 ## Requirements
 
@@ -14,8 +12,8 @@ Warning: This module is under active development and there is no stable release.
 
 ## Features
 
-- Multiple account support
-- OAuth authentication from within the CMS
+- ModelAdmin for managing multiple Twitter accounts
+- OAuth authentication flow from within the CMS
 
 ## Documentation
 
