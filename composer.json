@@ -8,7 +8,7 @@
   "type": "silverstripe-module",
   "license": "BSD-2-Clause",
   "require": {
-    "php": ">=5.4.0",
+    "php": ">=5.6.0",
     "silverstripe/framework": "^3.2",
     "silverstripe/cms": "^3.2",
     "abraham/twitteroauth": "^0.7.2"
@@ -18,5 +18,6 @@
     "mockery/mockery": "^0.9.5",
     "squizlabs/php_codesniffer": "^2.8"
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
