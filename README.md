@@ -7,7 +7,7 @@ Provides Twitter API integration using [abraham/twitteroauth](https://github.com
 
 ## Requirements
 
-- PHP 5.5.9+
+- PHP 5.6+
 - SSL
 - cURL
 - SilverStripe 3.2+
