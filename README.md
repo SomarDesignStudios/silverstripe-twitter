@@ -1,5 +1,6 @@
 # SilverStripe Twitter
 
+[![Build Status](https://travis-ci.org/SomarDesignStudios/silverstripe-twitter.svg?branch=master)](https://travis-ci.org/SomarDesignStudios/silverstripe-twitter)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/SomarDesignStudios/silverstripe-twitter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/SomarDesignStudios/silverstripe-twitter/?branch=master)
 
 Provides Twitter API integration using [abraham/twitteroauth](https://github.com/abraham/twitteroauth).
